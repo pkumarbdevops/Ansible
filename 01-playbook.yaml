@@ -1,8 +1,8 @@
-# Playbook
-name: ping the node
-hosts: Mongodb
-# this is list of taks /module/collections
-task:
-- name: pinging the server
-# this is the map
-ansible.bildin.ping:
+# Playbook is list of play, always it should start with -
+- name: ping the node
+  hosts: Mongodb
+  # this is list of taks /module/collections
+  task:
+  - name: pinging the server
+    # this is the map
+    ansible.bildin.ping:
