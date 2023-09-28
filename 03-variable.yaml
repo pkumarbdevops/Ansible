@@ -1,6 +1,6 @@
 - name: varibales in ansible
   hosts: mongodb
   tasks: 
-  - name: print hello world
-    ansible.builtin.debug:
-    msg: "Hello, I am learning Ansible"
+- name: print hello world
+      ansible.builtin.debug:
+      msg: "Hello, I am learning Ansible"
