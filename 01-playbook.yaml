@@ -6,3 +6,4 @@
   - name: pinging the server
     # this is the map
      ansible.builtin.ping:
+     
