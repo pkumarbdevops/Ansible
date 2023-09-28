@@ -5,7 +5,6 @@
     COURSE: DevOps
     TRAINER: Praveen
     DURATION: 110HRS
-  vars:
   tasks: 
   - name: print hello world
     ansible.builtin.debug:
