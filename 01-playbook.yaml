@@ -1,6 +1,6 @@
 # Playbook is list of play, always it should start with -
 - name: ping the node
-  hosts: Mongodb
+  hosts: mongodb
   # this is list of taks /module/collections
   tasks:
   - name: pinging the server
