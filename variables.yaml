@@ -1,5 +1,5 @@
 #NAME: DevOps with AWS
-vars:
+vars: Ansible-Server
 NAME: DevOps with AWS
 DURATION: 120HRS
 TRAINER: Praveen
