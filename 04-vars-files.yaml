@@ -1,0 +1,8 @@
+- name: varaibles from files
+  hosts: localhost # managing the ansible server itself
+  vars_files:
+  - variables.yaml
+  tasks:
+  - name: printing variables
+    ansible.builtin.debug:
+      msg: "We are leaning {{NAME}}, Trainer is: {{TRAINER}}, Duration is: {{DURATION}}"
