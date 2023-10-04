@@ -1,2 +1,7 @@
 [mongodb]
-172.31.84.93
+172.31.84.240
+
+[mongodb:vars]
+MONGO_USERNAME=mongodbadmin
+MONGO_DB=categories
+NAME=Praveen-Inventory
