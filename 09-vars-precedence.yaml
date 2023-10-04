@@ -7,7 +7,7 @@
   vars_prompt:
   - name: NAME
     prompt: Please enter tRAINER Name
-    private:false
+    private: false
   tasks:
   - name: variable at task level
     vars:
