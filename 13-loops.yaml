@@ -1,0 +1,10 @@
+- name: loops exmaple
+  hosts: localhost # you no need to give user name and pwassword through ansible command line
+  tasks:
+  - name: print the names
+    ansible.builtin.debug:
+      msg: "Hello{{item}}" # the below values will store in the item and then it will print
+    loop:
+    - Praveen
+    - Bharat
+    - Sunil
