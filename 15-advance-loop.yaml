@@ -8,7 +8,7 @@
       state: "{{item.state}}"
     # list of map 
     loop:
-    - {name: 'postfix', state: 'Installed'}
-    - {name: 'cyrus-sasl-plain', state: 'absent'}
-    - {name: 'mailx', state: 'Installed'}
+    - {name: 'postfix', state: 'absent'}
+    - {name: 'cyrus-sasl-plain', state: 'Installed'}
+    - {name: 'mailx', state: 'absent'}
   
