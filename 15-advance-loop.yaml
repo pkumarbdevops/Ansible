@@ -9,6 +9,6 @@
     # list of map 
     loop:
     - {name: 'postfix', state: 'absent'}
-    - {name: 'cyrus-sasl-plain', state: 'Installed'}
+    - {name: 'cyrus-sasl-plain', state: 'absent'}
     - {name: 'mailx', state: 'absent'}
   
